@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+   flex-direction: row;
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+.item{
+    background-color: lemonchiffon;
+    padding: 8px;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.item img{
+    max-width: 60vw;
+}
+
+
+footer {
+    background: #f1f1f1;
+    text-align: center;
+    width: 100%;
+    padding: 16px 0px;
+    color: #999;
+    vertical-align: bottom;
+    margin-top: 0px;
+    /* width: 100%; */
+    /* height: 2.5rem;   */
+  }
+  
